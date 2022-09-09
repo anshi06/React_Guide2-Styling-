@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 //import './Button.css';
 const Button = styled.button`
-   {
+   
     font: inherit;
     padding: 0.5rem 1.5rem;
     border: 1px solid #8b005d;
@@ -11,7 +11,6 @@ const Button = styled.button`
     background: #8b005d;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
     cursor: pointer;
-  }
 
   &:focus {
     outline: none;
@@ -27,6 +26,7 @@ const Button = styled.button`
 // Attacked Template literal
 // .button is a special kind of method in package, and this method will return a new button, there are so many methods for html elements
 //like div / h2 / p / etc.
+
 // const Button = props => {
 //   return (
 //     <button type={props.type} className="button" onClick={props.onClick}>
